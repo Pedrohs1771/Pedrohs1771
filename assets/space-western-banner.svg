@@ -1,0 +1,70 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070A"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#2B160E"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(918 145) rotate(90) scale(148)">
+      <stop stop-color="#F5E6B8" stop-opacity="0.88"/>
+      <stop offset="0.45" stop-color="#D39B49" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#D39B49" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="198" y1="78" x2="1098" y2="342" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.5" stop-color="#F5C542"/>
+      <stop offset="1" stop-color="#FF3D81"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.55 0 0 1 0 0.15 0 0 0 0.75 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="transparent"/>
+      <rect y="7" width="8" height="1" fill="#FFFFFF" opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#sky)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#scan)"/>
+  <circle cx="918" cy="145" r="148" fill="url(#moonGlow)"/>
+  <circle cx="918" cy="145" r="86" fill="#E8C57A" opacity="0.88"/>
+  <circle cx="890" cy="118" r="15" fill="#1B130D" opacity="0.13"/>
+  <circle cx="945" cy="166" r="22" fill="#1B130D" opacity="0.12"/>
+  <circle cx="940" cy="103" r="9" fill="#1B130D" opacity="0.13"/>
+
+  <path d="M0 328C113 292 210 301 323 329C443 359 544 363 681 330C840 291 983 279 1280 326V420H0V328Z" fill="#050507"/>
+  <path d="M0 351C164 317 310 321 474 351C623 378 756 363 912 340C1042 321 1167 327 1280 352V420H0V351Z" fill="#090A0C"/>
+
+  <g opacity="0.78">
+    <path d="M145 333L174 252L206 333H145Z" fill="#14110F"/>
+    <path d="M199 337L244 208L292 337H199Z" fill="#11100F"/>
+    <path d="M1010 334L1048 236L1087 334H1010Z" fill="#120F0F"/>
+    <path d="M1084 337L1134 190L1186 337H1084Z" fill="#100E0F"/>
+  </g>
+
+  <g transform="translate(171 162)" filter="url(#softGlow)">
+    <path d="M101 145C128 142 157 145 184 151C174 129 159 111 136 101C137 85 132 70 121 57C111 45 95 39 79 41C56 44 40 62 38 86C36 105 44 121 58 133C45 137 33 143 22 153C45 147 73 144 101 145Z" fill="#0D0E10" stroke="#E7D8A8" stroke-width="3"/>
+    <path d="M55 83C73 70 99 62 126 66" stroke="#E7D8A8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M120 61C151 52 177 57 204 72C175 73 152 78 130 92" fill="#0D0E10" stroke="#E7D8A8" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M87 117C103 124 121 124 138 116" stroke="#E7D8A8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <path d="M98 72H1182" stroke="url(#neon)" stroke-width="2" opacity="0.68"/>
+  <path d="M98 350H1182" stroke="url(#neon)" stroke-width="2" opacity="0.4"/>
+
+  <text x="336" y="154" fill="#F8E7B7" font-family="'Segoe UI', 'JetBrains Mono', monospace" font-size="68" font-weight="800" letter-spacing="4">PEDROHS1771</text>
+  <text x="340" y="210" fill="#FFCE61" font-family="'Segoe UI', 'JetBrains Mono', monospace" font-size="28" font-weight="700" letter-spacing="7">SPACE-WESTERN AUTOMATION</text>
+  <text x="342" y="257" fill="#DDE7F2" font-family="'Segoe UI', 'JetBrains Mono', monospace" font-size="25" font-weight="500">17y Dev / Advanced Automation / Linux tooling</text>
+  <text x="342" y="299" fill="#7DD3FC" font-family="'Segoe UI', 'JetBrains Mono', monospace" font-size="23" font-weight="600">See you, space coder.</text>
+
+  <g opacity="0.76">
+    <circle cx="1122" cy="248" r="4" fill="#F8E7B7"/>
+    <circle cx="1164" cy="194" r="3" fill="#7DD3FC"/>
+    <circle cx="1016" cy="87" r="3" fill="#FF3D81"/>
+    <circle cx="706" cy="103" r="3" fill="#F8E7B7"/>
+    <circle cx="622" cy="286" r="2" fill="#7DD3FC"/>
+    <circle cx="490" cy="88" r="2" fill="#F8E7B7"/>
+  </g>
+</svg>
