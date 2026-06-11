@@ -13,7 +13,7 @@ This profile is a compact showcase of real repositories and the current growth t
 - Cross-platform launchers and release pipelines
 - Security research tooling for authorized web analysis
 
-## Project showcase
+## Main projects
 
 | Project | Area | Notes |
 | --- | --- | --- |
@@ -24,11 +24,11 @@ This profile is a compact showcase of real repositories and the current growth t
 | [Image-to-3D-Generator](https://github.com/Pedrohs1771/Image-to-3D-Generator) | AI, 3D | AI-powered 3D model generation with automated meshing and high-quality textures. |
 | [godeye](https://github.com/Pedrohs1771/godeye) | Security research | Advanced security research tool for web analysis. |
 
-## Main track
+## Current track
 
 ### LumaTools
 
-LumaTools is the main public toolchain focus right now. The repository is centered on launcher/library-management workflows, compatibility patches, depot handling, online feature emulation, documentation, and release work.
+LumaTools is the main public toolchain focus right now. The repository is centered on launcher and library-management workflows, compatibility patches, depot handling, online feature emulation, documentation, and release work.
 
 Active direction:
 
